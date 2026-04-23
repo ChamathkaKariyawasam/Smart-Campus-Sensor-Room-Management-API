@@ -26,6 +26,19 @@ The API follows RESTful principles and is structured around:
 
 ---
 
+📁 Project Structure
+com.smartcampus
+│
+├── config          # Application configuration
+├── model           # Data models
+├── resource        # REST endpoints
+├── exception       # Custom exceptions
+├── mapper          # Exception mappers
+├── filter          # Logging filter
+└── store           # In-memory data storage
+
+---
+
 ## 🌐 Base URL
 
 ```
